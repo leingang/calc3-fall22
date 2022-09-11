@@ -1,0 +1,65 @@
+%
+% \iffalse
+%<*driver>
+\ProvidesFile{leincalc.dtx}
+%</driver>
+%<pkg>\ProvidesPackage{leincalc-fall22}
+%<*pkg>
+  [2017/12/11 v0.1 Module One example]
+%</pkg>
+%<*driver>
+\documentclass{ltxdoc}
+\EnableCrossrefs
+\CodelineIndex
+\begin{document}
+  \DocInput{leincalc.dtx}
+\end{document}
+%</driver>
+% \fi
+%
+% \GetFileInfo{leincalc.dtx}
+% \title{The Module One example}
+% \date{\fileversion \qquad \filedate}
+% \maketitle
+%
+% \begin{abstract}
+% This is the documentation of the Module One example.
+% \end{abstract}
+%
+% \section{Introduction}
+%
+% This is where you would explain the package to a user.
+%
+% \StopEventually{}
+%
+% \section{Implementation}
+%
+%    \begin{macrocode}
+%<*pkg>
+%    \end{macrocode}
+%
+%    \begin{macrocode}
+\RequirePackage{leincalc}
+\newcommand{\newVector}[2]{
+	\newcommand{#1}{\Vector{#2}}
+}
+\newVector{\va}{a}
+\newVector{\vb}{b}
+\newVector{\vu}{u}
+\newVector{\vv}{v}
+\newVector{\vw}{w}
+\newVector{\vzero}{0}
+\newVector{\vF}{F}
+\newVector{\vr}{r}
+\newVector{\vT}{T}
+\newVector{\vn}{n}
+\newcommand{\dr}{d\vr}
+\newcommand{\dS}{d\Vector{S}}
+%    \end{macrocode}
+%
+%    \begin{macrocode}
+%</pkg>
+%    \end{macrocode}
+%
+% \Finale
+%
