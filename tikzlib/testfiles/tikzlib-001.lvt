@@ -2,9 +2,9 @@
 
 \documentclass{minimal}
 \usepackage{tikz}
+\usetikzlibrary{MATH-UA-123-fall22}
 
 \begin{document}
 \START
 % Tests go here
-\usetikzlibrary{MATH-UA-123-fall22}
 \end{document}
