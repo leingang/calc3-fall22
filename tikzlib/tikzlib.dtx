@@ -1,0 +1,73 @@
+%
+% \iffalse
+%<*driver>
+\ProvidesFile{tikzlib.dtx}
+%</driver>
+%<tikzlib>\ProvidesPackage{tikzlib}
+%<*tikzlib>
+  [2017/12/11 v0.1 Module One example]
+%</tikzlib>
+%<*driver>
+\documentclass{ltxdoc}
+\EnableCrossrefs
+\CodelineIndex
+\begin{document}
+  \DocInput{tikzlib.dtx}
+\end{document}
+%</driver>
+% \fi
+%
+% \GetFileInfo{tikzlib.dtx}
+% \title{A TikZ library for Calculus III, Fall 2022}
+% \date{\fileversion \qquad \filedate}
+% \maketitle
+%
+% \begin{abstract}
+% This is the documentation of the Module One example.
+% \end{abstract}
+%
+% \section{Introduction}
+%
+% This is where you would explain the package to a user.
+%
+% \StopEventually{}
+%
+% \section{Implementation}
+%
+%    \begin{macrocode}
+%<*tikzlib>
+%    \end{macrocode}
+%
+% This library builds on a base library.
+%    \begin{macrocode}
+\usetikzlibrary{MATH-UA-123}
+%    \end{macrocode}
+%
+% Load the 2022 NYU colors and map the generic names onto them.
+%    \begin{macrocode}
+\usepackage{xcolor-nyu22}
+\colorlet{primary}{NyuViolet}
+\colorlet{secondary}{LightViolet1}
+\colorlet{tertiary}{UltraViolet}
+\colorlet{quartenary}{MediumViolet2}
+\usetikzlibrary{backgrounds}
+%    \end{macrocode}
+%
+% This allows for setting the fill color of the background rectangle of a TikZ
+% picture. It's useful because some of the block backgrounds aren't white
+% anymore.
+%    \begin{macrocode}%
+\tikzset{background fill/.style={
+    background rectangle/.style={fill=#1},
+    show background rectangle,
+    },
+}
+%    \end{macrocode}
+%
+% That's all, folks!
+%    \begin{macrocode}
+%</tikzlib>
+%    \end{macrocode}
+%
+% \Finale
+%

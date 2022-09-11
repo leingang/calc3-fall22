@@ -1,0 +1,10 @@
+\input regression-test.tex\relax
+
+\documentclass{minimal}
+\usepackage{tikz}
+
+\begin{document}
+\START
+% Tests go here
+\usetikzlibrary{MATH-UA-123-fall22}
+\end{document}
