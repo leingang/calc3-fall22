@@ -112,13 +112,23 @@ function update_tag(file,content,tagname,tagdate)
     return content
 end
 
+function git_tag(version,tagdate)
+    -- create the name of the git tag from the version and tagdate
+    local module = module or nil
+    if (module) then
+        -- module version with name prepe
+        return string.format("%s-v%s",module,version)
+    else
+        -- calver
+        return tagdate
+    end
+end
 
 function tag_hook(version,tagdate)
-    -- handle version control
-    -- tagname is the version number
-    -- (in bundles, the tagname might include the module name too)
-    tagname = "v" .. version
+    -- tag repository
+    tagname = git_tag(version,tagdate)
     os.execute("git add .")
     os.execute("git commit -m \"Log changes for version " .. version .. "\"")
     return os.execute("git tag -a -m \"Tag version " .. tagname .. "\" " .. tagname)
 end
+
