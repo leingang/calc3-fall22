@@ -8,8 +8,14 @@
 \begin{document}
 
 \START
-\TEST{vtau}{
+\TEST{\vtau}{
     \savebox{\tmpa}{$\tau\ \vtau$}
+    \showbox\tmpa
+    \usebox\tmpa
+}
+
+\TEST{\vc}{
+    \savebox{\tmpa}{$c\ \vc$}
     \showbox\tmpa
     \usebox\tmpa
 }
