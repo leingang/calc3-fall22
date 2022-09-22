@@ -4,9 +4,13 @@
 
 \usepackage{leincalc-fall22}
 
+\newsavebox{\tmpa}
 \begin{document}
 
 \START
-% Tests go here
-
+\TEST{vtau}{
+    \savebox{\tmpa}{$\tau\ \vtau$}
+    \showbox\tmpa
+    \usebox\tmpa
+}
 \end{document}

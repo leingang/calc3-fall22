@@ -1,0 +1,28 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: vtau
+============================================================
+LaTeX Font Info:    Trying to load font information for U+msa on input line ....
+LaTeX Font Info:    Trying to load font information for U+msb on input line ....
+> \box...=
+\hbox(4.44444+0.0)x15.39232
+.\pdfcolorstack 0 push {0 g 0 G}
+.\mathon
+.\OML/cmm/m/it/10 ^^\
+.\kern1.13194
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\hbox(4.44444+0.0)x6.55551
+..\hbox(4.44444+0.0)x6.55551
+...\mathon
+...\OML/cmm/b/it/10 ^^\
+...\kern1.34721
+...\mathoff
+.\mathoff
+.\pdfcolorstack 0 pop
+! OK.
+<argument> ...a }{$\tau \ \vtau $} \showbox \tmpa 
+                                                  \usebox \tmpa 
+l. ...}
+============================================================
+[1] (leincalc-vtau.aux)
