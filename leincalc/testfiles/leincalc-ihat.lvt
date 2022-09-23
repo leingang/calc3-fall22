@@ -1,0 +1,27 @@
+\input regression-test.tex\relax
+
+\documentclass{minimal}
+
+\usepackage{leincalc-fall22}
+
+\newsavebox{\tmpa}
+\begin{document}
+
+\START
+\TEST{\ihat}{
+    \savebox{\tmpa}{$\ihat$}
+    \showbox\tmpa
+    \usebox\tmpa
+}
+\TEST{\jhat}{
+    \savebox{\tmpa}{$\jhat$}
+    \showbox\tmpa
+    \usebox\tmpa
+}
+\TEST{\khat}{
+    \savebox{\tmpa}{$\khat$}
+    \showbox\tmpa
+    \usebox\tmpa
+}
+
+\end{document}
