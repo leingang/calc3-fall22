@@ -1,0 +1,77 @@
+%
+% \iffalse
+%<*driver>
+\ProvidesFile{ngelesson22-worksheet.dtx}
+%</driver>
+%<pkg>\ProvidesClass{ngelesson22-worksheet}
+%<*pkg>
+  [2017/12/11 v0.1 2022 NYU Brand NGE Worksheets]
+%</pkg>
+%<*driver>
+\documentclass{ltxdoc}
+\EnableCrossrefs
+\CodelineIndex
+\begin{document}
+  \DocInput{ngelesson22-worksheet.dtx}
+\end{document}
+%</driver>
+% \fi
+%
+% \GetFileInfo{ngelesson22-worksheet.dtx}
+% \title{2022 NYU Brand NGE Worksheets}
+% \date{\fileversion \qquad \filedate}
+% \maketitle
+%
+% \begin{abstract}
+% This is the documentation of the Module Two example.
+% \end{abstract}
+%
+% \section{Introduction}
+%
+% This is where you would explain the package to a user.
+%
+% \StopEventually{}
+%
+% \section{Implementation}
+%
+%    \begin{macrocode}
+%<*pkg>
+%    \end{macrocode}
+%
+%    \begin{macrocode}
+\LoadClassWithOptions{ngelessonworksheet}
+\usepackage[no-math]{fontspec}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text}
+\usepackage{xcolor-nyu22}
+\setmainfont{Frank Ruhl Libre}[
+    ItalicFont=*,
+    ItalicFeatures={FakeSlant}
+]
+\setsansfont[BoldFont=Gotham Bold]{Gotham Book}
+\lhead{%
+   \sffamily\color{UltraViolet}
+   \ngelesson@course@code%
+   \ifx\insertcoursesectionnumber\@empty\else.\insertcoursesectionnumber\fi
+   \ \insertcoursename
+   \\
+   \let\\:\@title}
+\rhead{%
+   \sffamily\color{UltraViolet}
+   Name:
+   \ifthenelse{\boolean{worksheetsolutions}}{%
+      \underline{\raisebox{1pt}{\makebox[2in]{\color{Magenta}\sffamily\Large Solutions}}}
+      }{% else
+      \rule{2in}{0.4pt}
+   }
+\\ \@date}
+\preto{\headrule}{\color{NyuViolet}}
+\preto{\proof}{\color{NyuViolet}}
+%    \end{macrocode}
+%
+%    \begin{macrocode}
+%</pkg>
+%    \end{macrocode}
+%
+% \Finale
+%
