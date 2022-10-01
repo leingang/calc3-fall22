@@ -2,8 +2,8 @@
 
 bundle = "calc3-fall22"
 module = "ngelesson22-worksheet"
-version = "0.6"
-versiondate = "2022-09-26"
+version = "0.7"
+versiondate = "2022-10-01"
 
 maindir = ".."
 
