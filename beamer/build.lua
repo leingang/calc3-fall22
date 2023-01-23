@@ -2,7 +2,7 @@
 
 bundle = "calc3-fall22"
 module = "beamer"
-version = "0.0"
+version = "0.1"
 versiondate = "2023-01-22"
 
 maindir = ".."
