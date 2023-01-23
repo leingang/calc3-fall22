@@ -1,0 +1,151 @@
+%
+% \iffalse
+%<*driver>
+\ProvidesFile{beamerinnerthemefall22.dtx}
+%</driver>
+%<pkg>\ProvidesPackage{beamerinnerthemefall22}
+%<*pkg>
+  [2022/10/01 v0.7 Fall 2022 beamer templates]
+%</pkg>
+%<*driver>
+\documentclass{ltxdoc}
+\EnableCrossrefs
+\CodelineIndex
+\begin{document}
+  \DocInput{beamerinnerthemefall22.dtx}
+\end{document}
+%</driver>
+% \fi
+%
+% \GetFileInfo{beamerinnerthemefall22.dtx}
+% \title{Fall 2022 inner theme}
+% \date{\fileversion \qquad \filedate}
+% \maketitle
+%
+% \begin{abstract}
+% This inner theme contains templates for laying out beamer slides based on
+% my personal adaptation of the 2022 NYU brand.
+% \end{abstract}
+%
+% \section{Introduction}
+%
+% These are templates for common slide elements.
+%
+% The first versions were lost in the November 2022 MacBook crash.
+%
+% There are references to files not yet included in this module.
+% Perhaps that should be done. 
+% They are downloaded from flaticon.com.
+%
+% \StopEventually{}
+%
+% \section{Implementation}
+%
+%    \begin{macrocode}
+%<*pkg>
+%    \end{macrocode}
+%
+% \subsection{Slide patterns}
+%
+% Many slides have clip art to the left and/or right.
+%
+% TODO: allow for variable width. I forgot how that was done.
+%
+% \subsubsection{Record and unmute}
+%
+% Just a template to remind myself to turn on the Zoom recording
+% and double-check that the microphone is unmuted.
+%
+%    \begin{macrocode}
+\setbeamertemplate{record and unmute}{
+    \frametitle{Record and Unmute}
+    \begin{columns}
+      \begin{column}{0.45\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{record_pixelmeetup_violet}
+      \end{column}
+      \begin{column}{0.45\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{microphone_pixelmeetup_violet}
+      \end{column}
+   \end{columns}
+}
+%    \end{macrocode}
+%
+% \subsubsection{Announcements}
+%
+%    \begin{macrocode}
+\setbeamertemplate{announcements begin}{
+    \begin{columns}
+      \begin{column}{0.45\textwidth}
+}
+\setbeamertemplate{announcements end}{
+      \end{column}
+      \begin{column}{0.45\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{bullhorn_pixelmeetup_violet}
+      \end{column}
+   \end{columns}
+}
+%    \end{macrocode}
+%
+% \subsubsection{Office Hours}
+%
+%    \begin{macrocode}
+\setbeamertemplate{coffee cup icon}{
+   \includegraphics[width=\textwidth]{coffee-cup_pixelmeetup_violet}
+}
+%    \end{macrocode}
+%
+% \subsubsection{Objectives}
+%
+%    \begin{macrocode}
+\setbeamertemplate{objectives begin}{
+    \begin{columns}
+      \begin{column}{0.45\textwidth}
+}
+\setbeamertemplate{objectives end}{
+      \end{column}
+      \begin{column}{0.45\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{target_pixelmeetup_violet}
+      \end{column}
+   \end{columns}
+}
+%    \end{macrocode}
+%
+% \subsubsection{Worksheet}
+%
+%    \begin{macrocode}
+\setbeamertemplate{worksheet image}{
+   \begin{center}
+   \includegraphics[width=\textwidth,height=0.8\textheight,keepaspectratio]{conversation_freepik}
+   \end{center}
+}
+%    \end{macrocode}%
+%
+% \subsubsection{Summary}
+%
+%    \begin{macrocode}
+\setbeamertemplate{summary begin}{
+    \begin{columns}
+      \begin{column}{0.45\textwidth}
+}
+\setbeamertemplate{summary end}{
+      \end{column}
+      \begin{column}{0.45\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{teaching_pixelmeetup_violet}
+      \end{column}
+   \end{columns}
+}
+%    \end{macrocode}
+%
+%
+% The end.
+%    \begin{macrocode}
+%</pkg>
+%    \end{macrocode}
+%
+% \Finale
+%
