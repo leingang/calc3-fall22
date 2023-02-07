@@ -100,19 +100,25 @@
 % \subsubsection{Objectives}
 %
 %    \begin{macrocode}
-\setbeamertemplate{objectives begin}{
+\newlength{\fxxiicolwidth}
+\setlength{\fxxiicolwidth}{0.45\textwidth}
+\RequirePackage{calc}% to do math on lengths
+\defbeamertemplate*{objectives begin}{target on right}[1][0.45\textwidth]{
     \begin{columns}
-      \begin{column}{0.45\textwidth}
+    \setlength{\fxxiicolwidth}{#1}
+      \begin{column}{\fxxiicolwidth}
 }
 \setbeamertemplate{objectives end}{
       \end{column}
-      \begin{column}{0.45\textwidth}
+      \setlength{\fxxiicolwidth}{0.9\textwidth-\fxxiicolwidth}
+      \begin{column}{\fxxiicolwidth}
          \centering
          \includegraphics[width=\textwidth]{target_pixelmeetup_violet}
       \end{column}
    \end{columns}
 }
 %    \end{macrocode}
+%
 %
 % \subsubsection{Worksheet}
 %
@@ -129,11 +135,17 @@
 %    \begin{macrocode}
 \setbeamertemplate{summary begin}{
     \begin{columns}
-      \begin{column}{0.45\textwidth}
+      \begin{column}{\fxxiicolwidth}
+}
+\defbeamertemplate{summary begin}{icon on right}[1][0.45\textwidth]{
+    \begin{columns}
+    \setlength{\fxxiicolwidth}{#1}
+      \begin{column}{\fxxiicolwidth}
 }
 \setbeamertemplate{summary end}{
       \end{column}
-      \begin{column}{0.45\textwidth}
+      \setlength{\fxxiicolwidth}{0.9\textwidth-\fxxiicolwidth}
+      \begin{column}{\fxxiicolwidth}
          \centering
          \includegraphics[width=\textwidth]{teaching_pixelmeetup_violet}
       \end{column}

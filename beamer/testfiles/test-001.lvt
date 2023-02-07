@@ -1,0 +1,31 @@
+\input regression-test.tex
+% testing the "xxx on right" preset for the objectives begin
+% beamer template
+\documentclass{beamer}
+\useinnertheme{fall22}
+
+\begin{document}
+
+\START\showoutput
+\begin{frame}{Objectives}
+    \usebeamertemplate{objectives begin}
+        \begin{itemize}
+            \item foo
+            \item bar 
+            \item baz
+        \end{itemize}
+    \usebeamertemplate{objectives end}
+\end{frame}
+
+\begin{frame}{Long Objectives}
+    \setbeamertemplate{objectives begin}[target on right][0.65\textwidth]
+    \usebeamertemplate{objectives begin}
+        \begin{itemize}
+            \item foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo
+            \item bar bar bar bar bar bar bar bar bar bar bar bar bar bar bar bar
+            \item baz baz baz baz baz baz baz baz baz baz baz baz baz baz baz baz
+        \end{itemize}
+    \usebeamertemplate{objectives end}
+\end{frame}
+\END
+\end{document}
