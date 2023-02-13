@@ -1,0 +1,30 @@
+\input regression-test.tex
+\documentclass{ngelesson22-worksheet}
+\title[
+    lesson number=12,
+    textbook section=11.3
+    ]{Partial Derivatives}
+\course[code=MATH-UA 123,section=002]{Calculus III}
+\term[code=1234]{Spring 2023}
+\institute[NYU]{New York University}
+\author{Prof. Leingang}
+\date{February 15, 2023}
+\usepackage{siunitx}
+\usepackage{textcomp}
+\usepackage{etoolbox}
+\usetikzlibrary{MATH-UA-123-fall22}
+\usepackage{leincalc-fall22}
+
+\usepackage{hyperref}
+\showoutput
+\begin{document}
+\START\maketitle
+
+\problemfont
+
+Find all first partial derivatives of the functions.
+
+\vfil\break
+\END
+\end{document}
+\endinput

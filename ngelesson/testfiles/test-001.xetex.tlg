@@ -1,0 +1,215 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Completed box being shipped out [1]
+\vbox(622.60394+3.60004)x449.87982
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:docinfo<</Title()/Subject()/Creator(LaTeX with hyperref)/Author()\ETC.}
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 794.96999
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999
+.....\kern -72.26999
+.....\special{pdf:obj @pgfcolorspaces <<>>}
+.....\special{pdf:put @resources << /ColorSpace @pgfcolorspaces >>}
+.....\special{pdf:put @pgfcolorspaces <<  /pgfprgb [/Pattern /DeviceRGB]  >>}
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 14.87636fil
+..\kern 0.0
+..\kern -13.87262
+..\kern -1.00374
+..\hbox(0.0+0.0)x0.0, glue set - 18.87146fil
+...\kern 0.0
+...\kern 19.8752
+...\kern -1.00374
+...\special{pdf:dest (page.1) [@thispage /XYZ @xpos @ypos null]}
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(622.60394+3.60004)x449.87982
+..\glue -13.87262
+..\vbox(636.47656+3.60004)x430.00462, shifted 19.8752
+...\vbox(25.0+0.0)x430.00462, glue set 2.09996fil
+....\glue 0.0 plus 1.0fil
+....\hbox(22.90004+0.0)x430.00462
+.....\special{color push gray 0}
+.....\hbox(22.90004+0.0)x430.00462
+......\hbox(22.90004+0.0)x430.00462
+.......\special{color pop}
+.......\vbox(22.90004+0.0)x430.00462
+........\hbox(19.3+3.60004)x430.00462
+.........\hbox(19.3+3.60004)x0.0, glue set - 430.00462fil
+..........\vbox(19.3+3.60004)x430.00462
+...........\hbox(7.3+0.11998)x430.00462, glue set 141.82732fil
+............\hbox(0.0+0.0)x0.0
+............\special{color push rgb 0.53725 0 0.88235}
+............\TU/GothamBook(0)/m/n/10 MATH-UA
+............\glue 3.0 plus 1.49849 minus 1.00099
+............\TU/GothamBook(0)/m/n/10 123.002
+............\glue 3.0 plus 1.5 minus 1.0
+............\TU/GothamBook(0)/m/n/10 Calculus
+............\glue 3.0 plus 1.5 minus 1.0
+............\TU/GothamBook(0)/m/n/10 III
+............\penalty 10000
+............\glue(\parfillskip) 0.0 plus 1.0fil
+............\glue(\rightskip) 0.0 plus 1.0fil
+...........\glue 0.0
+...........\glue(\parskip) 0.0
+...........\glue(\parskip) 0.0
+...........\glue(\baselineskip) 3.48006
+...........\hbox(8.39996+3.60004)x430.00462, glue set 102.16731fil
+............\hbox(0.0+0.0)x0.0
+............\TU/GothamBook(0)/m/n/10 Worksheet
+............\glue 3.0 plus 1.5 minus 1.0
+............\TU/GothamBook(0)/m/n/10 for
+............\glue 3.0 plus 1.5 minus 1.0
+............\TU/GothamBook(0)/m/n/10 Section
+............\glue 3.0 plus 1.5 minus 1.0
+............\TU/GothamBook(0)/m/n/10 11.3:
+............\glue 4.0 plus 3.0 minus 0.5
+............\TU/GothamBook(0)/m/n/10 Partial
+............\glue 3.0 plus 1.5 minus 1.0
+............\TU/GothamBook(0)/m/n/10 Derivatives
+............\rule(8.39996+3.60004)x0.0
+............\penalty 10000
+............\glue(\parfillskip) 0.0 plus 1.0fil
+............\glue(\rightskip) 0.0 plus 1.0fil
+...........\special{color pop}
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\glue 0.0 plus 1.0fill
+.........\vbox(0.0+0.0)x430.00462
+..........\hbox(0.0+0.0)x430.00462, glue set 215.00232fil
+...........\glue(\leftskip) 0.0 plus 1.0fil
+...........\hbox(0.0+0.0)x0.0
+...........\penalty 10000
+...........\glue(\parfillskip) 0.0
+...........\glue(\rightskip) 0.0 plus 1.0fil
+.........\glue 0.0 plus 1.0fill
+.........\hbox(19.0+3.60004)x0.0, glue set - 430.00462fil
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\vbox(19.0+3.60004)x430.00462
+...........\hbox(7.0+0.11998)x430.00462, glue set 249.83463fil
+............\glue(\leftskip) 0.0 plus 1.0fil
+............\hbox(0.0+0.0)x0.0
+............\special{color push rgb 0.53725 0 0.88235}
+............\TU/GothamBook(0)/m/n/10 Name:
+............\glue 4.0 plus 3.0 minus 0.5
+............\hbox(0.4+0.0)x144.54
+.............\rule(0.4+0.0)x144.54
+............\penalty 10000
+............\glue(\parfillskip) 0.0
+............\glue(\rightskip) 0.0
+...........\glue 0.0
+...........\glue(\parskip) 0.0
+...........\glue(\parskip) 0.0
+...........\glue(\baselineskip) 3.48006
+...........\hbox(8.39996+3.60004)x430.00462, glue set 369.32462fil
+............\glue(\leftskip) 0.0 plus 1.0fil
+............\hbox(0.0+0.0)x0.0
+............\TU/GothamBook(0)/m/n/10 Spring
+............\glue 3.0 plus 1.5 minus 1.0
+............\TU/GothamBook(0)/m/n/10 2023
+............\rule(8.39996+3.60004)x0.0
+............\penalty 10000
+............\glue(\parfillskip) 0.0
+............\glue(\rightskip) 0.0
+...........\special{color pop}
+........\glue 0.0
+........\special{color push rgb 0.34119 0.02353 0.54903}
+........\rule(0.4+0.0)x430.00462
+........\glue -0.4
+......\glue 0.0 plus 1.0fil minus 1.0fil
+.....\special{color pop}
+...\glue 25.0
+...\glue(\lineskip) 0.0
+...\vbox(556.47656+0.0)x430.00462, glue set 544.41843fil
+....\special{color push gray 0}
+....\write-{}
+....\special{pdf:majorversion 1}
+....\special{pdf:minorversion 5}
+....\special{pdf:docview<</OpenAction[@page1/Fit]/PageMode/UseOutlines>>}
+....\special{pdf:dest (Doc-Start) [@thispage /XYZ @xpos @ypos null]}
+....\glue(\topskip) 2.95
+....\hbox(7.05+1.99998)x430.00462, glue set 210.69463fil
+.....\hbox(0.0+0.0)x15.0
+.....\TU/FrankRuhlLibre(0)/m/n/10 Find
+.....\glue 2.39 plus 1.19499 minus 0.79666
+.....\TU/FrankRuhlLibre(0)/m/n/10 all
+.....\glue 2.39 plus 1.19499 minus 0.79666
+.....\TU/FrankRuhlLibre(0)/m/n/10 first
+.....\glue 2.39 plus 1.19499 minus 0.79666
+.....\TU/FrankRuhlLibre(0)/m/n/10 partial
+.....\glue 2.39 plus 1.19499 minus 0.79666
+.....\TU/FrankRuhlLibre(0)/m/n/10 derivatives
+.....\glue 2.39 plus 1.19499 minus 0.79666
+.....\TU/FrankRuhlLibre(0)/m/n/10 of
+.....\glue 2.39 plus 1.19499 minus 0.79666
+.....\TU/FrankRuhlLibre(0)/m/n/10 the
+.....\glue 2.39 plus 1.19499 minus 0.79666
+.....\TU/FrankRuhlLibre(0)/m/n/10 functions.
+.....\penalty 10000
+.....\glue(\parfillskip) 0.0 plus 1.0fil
+.....\glue(\rightskip) 0.0
+....\glue 0.0 plus 1.0fil
+....\glue 0.0
+....\glue 0.0 plus 0.0001fil
+...\glue(\baselineskip) 18.0
+...\hbox(12.0+3.60004)x430.00462
+....\special{color push gray 0}
+....\hbox(12.0+3.60004)x430.00462
+.....\hbox(12.0+3.60004)x430.00462
+......\vbox(12.0+3.60004)x430.00462
+.......\rule(0.0+0.0)x430.00462
+.......\glue 3.60004
+.......\hbox(8.39996+3.60004)x430.00462
+........\hbox(0.0+0.0)x0.0, glue set - 430.00462fil
+.........\vbox(0.0+0.0)x430.00462
+..........\hbox(0.0+0.0)x430.00462, glue set 215.00232fil
+...........\hbox(0.0+0.0)x0.0
+...........\penalty 10000
+...........\glue(\parfillskip) 0.0 plus 1.0fil
+...........\glue(\rightskip) 0.0 plus 1.0fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+........\glue 0.0 plus 1.0fill
+........\vbox(8.39996+3.60004)x430.00462
+.........\hbox(8.39996+3.60004)x430.00462, glue set 212.65231fil
+..........\glue(\leftskip) 0.0 plus 1.0fil
+..........\hbox(0.0+0.0)x0.0
+..........\TU/FrankRuhlLibre(0)/m/n/10 1
+..........\rule(8.39996+3.60004)x0.0
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0
+..........\glue(\rightskip) 0.0 plus 1.0fil
+........\glue 0.0 plus 1.0fill
+........\hbox(0.0+0.0)x0.0, glue set - 430.00462fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\vbox(0.0+0.0)x430.00462
+..........\hbox(0.0+0.0)x430.00462, glue set 430.00462fil
+...........\glue(\leftskip) 0.0 plus 1.0fil
+...........\hbox(0.0+0.0)x0.0
+...........\penalty 10000
+...........\glue(\parfillskip) 0.0
+...........\glue(\rightskip) 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\special{color pop}
+.\kern -626.20398
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 794.96999
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\kern 626.20398
+.\kern 0.0
+.\kern 0.0

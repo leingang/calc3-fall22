@@ -7,6 +7,9 @@ versiondate = "2022-10-01"
 
 maindir = ".."
 
+stdengine = "luatex"
+checkengines = {"xetex", "luatex"}
+
 installfiles = {"*.sty", "*.cls"}
 typesetfiles  = {"*.tex"}
 
