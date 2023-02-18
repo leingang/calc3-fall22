@@ -27,5 +27,49 @@
         \end{itemize}
     \usebeamertemplate{objectives end}
 \end{frame}
+
+\begin{frame}{Announcements}
+    \usebeamertemplate{announcements begin}
+        \begin{itemize}
+            \item foo
+            \item bar 
+            \item baz
+        \end{itemize}
+    \usebeamertemplate{announcements end}
+\end{frame}
+
+\begin{frame}{Long Announcements}
+    \setbeamertemplate{text + picture begin}[picture on right][0.65\textwidth]
+    \usebeamertemplate{announcements begin}
+        \begin{itemize}
+            \item foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo
+            \item bar bar bar bar bar bar bar bar bar bar bar bar bar bar bar bar
+            \item baz baz baz baz baz baz baz baz baz baz baz baz baz baz baz baz
+        \end{itemize}
+    \usebeamertemplate{announcements end}
+\end{frame}
+
+\begin{frame}{Summary}
+    \usebeamertemplate{summary begin}
+        \begin{itemize}
+            \item foo
+            \item bar 
+            \item baz
+        \end{itemize}
+    \usebeamertemplate{summary end}
+\end{frame}
+
+\begin{frame}{Long Summary}
+    \setbeamertemplate{summary begin}[icon on right][0.65\textwidth]
+    \usebeamertemplate{summary begin}
+        \begin{itemize}
+            \item foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo
+            \item bar bar bar bar bar bar bar bar bar bar bar bar bar bar bar bar
+            \item baz baz baz baz baz baz baz baz baz baz baz baz baz baz baz baz
+        \end{itemize}
+    \usebeamertemplate{summary end}
+\end{frame}
+
 \END
+
 \end{document}

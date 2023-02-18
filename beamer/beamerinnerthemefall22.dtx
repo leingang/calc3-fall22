@@ -74,18 +74,38 @@
 %
 % \subsubsection{Announcements}
 %
+% The first of many ``text plus picture'' slide layouts.
+%
 %    \begin{macrocode}
-\setbeamertemplate{announcements begin}{
-    \begin{columns}
-      \begin{column}{0.45\textwidth}
+\RequirePackage{calc}% to do math on lengths
+\defbeamertemplate*{text + picture begin}{picture on right}[1][0.45\textwidth]{
+   \begin{columns}
+      \setlength{\fxxiicolwidth}{#1}
+      \begin{column}{\fxxiicolwidth}
+  }
+[action]
+{
+   \newlength{\fxxiicolwidth}
+   \setlength{\fxxiicolwidth}{0.45\textwidth}   
 }
-\setbeamertemplate{announcements end}{
+\defbeamertemplate*{text + picture end}{picture on right}[1][example-image]{
       \end{column}
-      \begin{column}{0.45\textwidth}
+      \setlength{\fxxiicolwidth}{0.9\textwidth-\fxxiicolwidth}
+      \begin{column}{\fxxiicolwidth}
          \centering
-         \includegraphics[width=\textwidth]{bullhorn_pixelmeetup_violet}
+         \includegraphics[width=\textwidth]{#1}
       \end{column}
    \end{columns}
+}
+%    \end{macrocode}
+%
+%    \begin{macrocode}
+\setbeamertemplate{announcements begin}{
+   \usebeamertemplate{text + picture begin}
+}
+\setbeamertemplate{announcements end}{
+   \mode<presentation>{\setbeamertemplate{text + picture end}[picture on right][bullhorn_pixelmeetup_violet]}
+   \usebeamertemplate{text + picture end}
 }
 %    \end{macrocode}
 %
@@ -100,25 +120,32 @@
 % \subsubsection{Objectives}
 %
 %    \begin{macrocode}
-\newlength{\fxxiicolwidth}
-\setlength{\fxxiicolwidth}{0.45\textwidth}
-\RequirePackage{calc}% to do math on lengths
 \defbeamertemplate*{objectives begin}{target on right}[1][0.45\textwidth]{
-    \begin{columns}
-    \setlength{\fxxiicolwidth}{#1}
-      \begin{column}{\fxxiicolwidth}
+   \mode<presentation>{\setbeamertemplate{text + picture begin}[picture on right][#1]}
+   \usebeamertemplate{text + picture begin}
 }
 \setbeamertemplate{objectives end}{
-      \end{column}
-      \setlength{\fxxiicolwidth}{0.9\textwidth-\fxxiicolwidth}
-      \begin{column}{\fxxiicolwidth}
-         \centering
-         \includegraphics[width=\textwidth]{target_pixelmeetup_violet}
-      \end{column}
-   \end{columns}
+   \mode<presentation>{\setbeamertemplate{text + picture end}[picture on right][target_pixelmeetup_violet]}
+   \usebeamertemplate{text + picture end}
 }
 %    \end{macrocode}
 %
+% \subsubsection{Summary}
+%
+%    \begin{macrocode}
+\setbeamertemplate{summary begin}{
+    \begin{columns}
+      \begin{column}{\fxxiicolwidth}
+}
+\defbeamertemplate*{summary begin}{icon on right}[1][0.45\textwidth]{
+   \mode<presentation>{\setbeamertemplate{text + picture begin}[picture on right][#1]}
+   \usebeamertemplate{text + picture begin}
+}
+\setbeamertemplate{summary end}{
+   \mode<presentation>{\setbeamertemplate{text + picture end}[picture on right][teaching_pixelmeetup_violet]}
+   \usebeamertemplate{text + picture end}
+}
+%    \end{macrocode}
 %
 % \subsubsection{Worksheet}
 %
@@ -128,31 +155,7 @@
    \includegraphics[width=\textwidth,height=0.8\textheight,keepaspectratio]{conversation_freepik_violet}
    \end{center}
 }
-%    \end{macrocode}%
-%
-% \subsubsection{Summary}
-%
-%    \begin{macrocode}
-\setbeamertemplate{summary begin}{
-    \begin{columns}
-      \begin{column}{\fxxiicolwidth}
-}
-\defbeamertemplate{summary begin}{icon on right}[1][0.45\textwidth]{
-    \begin{columns}
-    \setlength{\fxxiicolwidth}{#1}
-      \begin{column}{\fxxiicolwidth}
-}
-\setbeamertemplate{summary end}{
-      \end{column}
-      \setlength{\fxxiicolwidth}{0.9\textwidth-\fxxiicolwidth}
-      \begin{column}{\fxxiicolwidth}
-         \centering
-         \includegraphics[width=\textwidth]{teaching_pixelmeetup_violet}
-      \end{column}
-   \end{columns}
-}
 %    \end{macrocode}
-%
 %
 % \subsection{Copyright box and configuration}
 % 
