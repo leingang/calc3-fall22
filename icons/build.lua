@@ -11,6 +11,7 @@ sourcefiles = {"*.svg", "unpack.sh"}
 installfiles = {"*.pdf"}
 unpackexe = "zsh"
 unpackfiles = {"unpack.sh"}
+unpackopts = "-x"
 tdsroot = "generic"
 
 typesetfiles  = {"*.tex"}
