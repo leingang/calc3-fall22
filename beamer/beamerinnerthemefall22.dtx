@@ -78,16 +78,13 @@
 %
 %    \begin{macrocode}
 \RequirePackage{calc}% to do math on lengths
+\newlength{\fxxiicolwidth}
+\setlength{\fxxiicolwidth}{0.45\textwidth}   
 \defbeamertemplate*{text + picture begin}{picture on right}[1][0.45\textwidth]{
    \begin{columns}
       \setlength{\fxxiicolwidth}{#1}
       \begin{column}{\fxxiicolwidth}
   }
-[action]
-{
-   \newlength{\fxxiicolwidth}
-   \setlength{\fxxiicolwidth}{0.45\textwidth}   
-}
 \defbeamertemplate*{text + picture end}{picture on right}[1][example-image]{
       \end{column}
       \setlength{\fxxiicolwidth}{0.9\textwidth-\fxxiicolwidth}
