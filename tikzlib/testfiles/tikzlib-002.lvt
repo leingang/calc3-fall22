@@ -1,0 +1,37 @@
+\input regression-test.tex\relax
+
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{MATH-UA-123-fall22}
+
+\begin{document}
+\START
+\begin{tikzpicture}[scale=0.35,
+    region/.append style={draw=none},
+]
+    \draw[region] (7,0) to[
+        closed,
+        curve through={(12,3) .. (13,12) .. (6,16)}
+    ] (0,9)
+        node[below] {$D$}
+    ;
+    \coordinate (A) at (3,5);
+    \coordinate (B) at (8,13);
+    \draw[curve,
+        decoration={
+            markings,
+            mark=at position 0.35 with {\arrow[curve direction]{>};},
+            mark=at position 0.65 with {\arrow[curve direction]{>};},
+            mark=at position 0.20 with {\node[below] {$C$};},
+        },
+        postaction=decorate,
+        ] (A)
+        node[point,label=below:$A$] {} 
+        to[
+            closed,
+            curve through={(8,8) .. (8,11) .. (B) .. (4,10)}
+        ]   (A)
+        (B) node[point,label=right:$B$] {}
+        ;
+\end{tikzpicture}
+\end{document}
