@@ -64,13 +64,20 @@
 }
 %    \end{macrocode}
 %
-% Use Andrew Stacey's package for Hobby curves.
+% Use Andrew Stacey's package for Hobby curves. This is useful when drawing
+% generic ``blobs'' in the plane.
 %
 %    \begin{macrocode}%
 \usetikzlibrary{hobby}
 %    \end{macrocode}
-
-
+% 
+% This PGFPlots library provides the ability to fill the region between plots.
+% This is useful when drawing horizontally or vertically simple regions.
+%
+%    \begin{macrocode}%
+\usepgfplotslibrary{fillbetween}
+%    \end{macrocode}
+%
 %
 % That's all, folks!
 %    \begin{macrocode}
