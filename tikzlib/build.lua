@@ -9,7 +9,7 @@ versiondate = "2023-03-20"
 
 installfiles = {"*.code.tex"}
 
-typesetfiles  = {"*.tex"}
+typesetfiles  = {"*.dtx"}
 
 tagfiles = {"*.dtx","build.lua"}
 
