@@ -4,7 +4,7 @@ bundle = "calc3-fall22"
 module = "bibtex"
 maindir = ".."
 
-version = "0.0c"
+version = "0.1"
 versiondate = "2023-03-27"
 
 -- bibfiles = {"*.bib"}
