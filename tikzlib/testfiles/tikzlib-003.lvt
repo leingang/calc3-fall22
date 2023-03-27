@@ -1,0 +1,23 @@
+\input regression-test.tex\relax
+% A simple polar plot
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{MATH-UA-123-fall22}
+
+\begin{document}
+\START
+\begin{tikzpicture}
+    \tikzstyle{every plot}=[] % usually smooth, but that gets in the way of only marks below
+        \begin{polaraxis}[
+            axis x line=right,
+            ymin=0,ymax=2,
+            width=\textwidth,
+            ytick={1,1.5,2},
+        ]
+            \addplot+[mark=none,data cs=polarrad,domain=0:6.28,forget plot,samples=100] {2*sin(deg(x))};
+            \addplot+[only marks,data cs=polarrad,mark=*,forget plot] 
+                coordinates { (0,0.) (0.5236,1.) (0.7854,1.4142) (1.0472,1.7321) (1.5708,2.) (2.0944,1.7321) (2.3562,1.4142) (2.618,1.) };
+        \end{polaraxis}
+    \end{tikzpicture}
+
+\end{document}
