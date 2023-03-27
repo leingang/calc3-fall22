@@ -4,8 +4,8 @@ bundle = "calc3-fall22"
 module = "tikzlib"
 maindir = ".."
 
-version = "0.5a"
-versiondate = "2023-03-20"
+version = "0.6"
+versiondate = "2023-03-27"
 
 installfiles = {"*.code.tex"}
 
