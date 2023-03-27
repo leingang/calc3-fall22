@@ -87,6 +87,8 @@ target_list.bump = {
     help = "Bump the version, tag, and commit"
 }
 
+-- TODO refactor to get rid of the big if chain
+-- make a table update_tag_by_pattern 
 function update_tag(file,content,tagname,tagdate)
     -- TeX dates are in yyyy/mm/dd format.  tagdate is in yyyy-mm-dd format.
     tagdate_tex = string.gsub(tagdate,'-','/')
@@ -107,6 +109,15 @@ function update_tag(file,content,tagname,tagdate)
         content = string.gsub(content,
             '\nversiondate = ".-"',
             '\nversiondate = "' .. tagdate .. '"'
+        )
+    elseif string.match(file, "%.bib") then
+        content = string.gsub(content,
+            '@string{fileversion=".-"}',
+            '@string{fileversion="' .. tagname .. '"}'
+    )
+        content = string.gsub(content,
+            '@string{filedate=".-"}',
+            '@string{filedate="' .. tagdate .. '"}'
         )
     end
     return content
