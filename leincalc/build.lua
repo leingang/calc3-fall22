@@ -4,8 +4,8 @@ bundle = "calc3-fall22"
 module = "leincalc"
 maindir = ".."
 
-version = "0.6"
-versiondate = "2022-09-26"
+version = "0.7"
+versiondate = "2023-04-02"
 
 installfiles = {"*.sty", "*.cls"}
 typesetfiles  = {"*.tex"}
