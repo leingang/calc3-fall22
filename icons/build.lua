@@ -2,8 +2,8 @@
 
 bundle = "calc3-fall22"
 module = "icons"
-version = "0.5"
-versiondate = "2023-03-29"
+version = "0.6"
+versiondate = "2023-04-13"
 
 maindir = ".."
 
